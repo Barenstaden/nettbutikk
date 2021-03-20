@@ -3,19 +3,20 @@
 En nettbutikk hvor alt er gratis og varene aldri dukker opp i posten.
 
 ## Installasjon
-# Frontend
+### Frontend
 `$ cd frontend`
 `$ npm i`
 `$ npm run serve`
 
-# Strapi
+### Strapi
 `$ cd strapi`
 `$ npm i`
 `$ npm run dev`
 
-# Kan også startes med PM2 med ecosystem.config.js på root
+### Kan også startes med PM2 med ecosystem.config.js på root
 `$ pm2 start ecosystem.config.js`
      
+### Legge til produkter
 1. Gå til localhost:1337/admin og opprett en bruker
 2. Gå til Collection types -> Products -> Add new products
 3. Legg til product_id, name, price og minimum ett bilde for hvert produkt
