@@ -2,6 +2,7 @@
 
 En nettbutikk hvor alt er gratis og varene aldri dukker opp i posten.
 
+## Installasjon
 # Frontend
 `$ cd frontend`
 `$ npm i`
@@ -11,6 +12,9 @@ En nettbutikk hvor alt er gratis og varene aldri dukker opp i posten.
 `$ cd strapi`
 `$ npm i`
 `$ npm run dev`
+
+# Kan også startes med PM2 med ecosystem.config.js på root
+`$ pm2 start ecosystem.config.js`
      
 1. Gå til localhost:1337/admin og opprett en bruker
 2. Gå til Collection types -> Products -> Add new products
