@@ -11,7 +11,7 @@ En nettbutikk hvor alt er gratis og varene aldri dukker opp i posten.
 ### Strapi
 `$ cd strapi`
 `$ npm i`
-`$ npm run dev`
+`$ npm run develop`
 
 ### Kan også startes med PM2 med ecosystem.config.js på root
 `$ pm2 start ecosystem.config.js`
