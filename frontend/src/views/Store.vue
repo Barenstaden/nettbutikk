@@ -1,6 +1,8 @@
 <template>
   <b-container v-if="products">
     <h1 class="pt-5">Butikken med {{ products.length }} varer</h1>
+
+    <!-- Produkter -->
     <b-row class="mt-5 pb-5">
       <b-col
         md="6"
@@ -9,7 +11,9 @@
         v-for="product in products"
         :key="product.id"
       >
+        <!-- Produkt -->
         <div class="product">
+          <!-- Vise hovedbilde om ikke et annet bilde fra images er valgt -->
           <img
             :src="
               product.selectedImage
@@ -18,6 +22,8 @@
             "
             alt="product.name"
           />
+
+          <!-- Thumbnails under hovedbilde -->
           <b-row class="product-images text-left ml-0">
             <div class="image-wrapper">
               <img
@@ -34,6 +40,8 @@
               />
             </div>
           </b-row>
+
+          <!-- Beskrivelse, pris og legg i handlevogn -->
           <div class="product-description mt-3">
             <h5 class="mb-0">
               {{ product.name }}
@@ -73,6 +81,7 @@
       },
     },
     methods: {
+      // Endre hovedbilde fra thumbnails
       selectImage(productId, image) {
         this.products = this.products.map((product) => {
           if (product.id == productId) {
@@ -81,6 +90,7 @@
           return product;
         });
       },
+      // Legge til cart i store
       addToCart(product) {
         if (!this.cartItems.some((item) => item.id == product.id))
           this.$store.commit('addToCart', product);
@@ -89,12 +99,8 @@
       },
     },
     computed: {
-      ...mapGetters(['cartItems']),
-      productsWithSelectedImage() {
-        return this.products.filter(
-          (product) => (product.selectedImage = product.images[0]),
-        );
-      },
+      // Fra store
+      ...mapGetters(['cartItems'])
     },
   };
 </script>

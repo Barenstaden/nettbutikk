@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- Komponenter styres fra store -->
     <Cart />
     <CheckoutComplete />
     <loading
