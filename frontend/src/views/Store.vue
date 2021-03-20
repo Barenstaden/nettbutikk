@@ -1,11 +1,16 @@
 <template>
   <b-container v-if="products">
     <h1 class="pt-5">Butikken med {{ products.length }} varer</h1>
-    <b-row class="mt-5">
-      <b-col md="4" class="mt-3" v-for="product in products" :key="product.id">
+    <b-row class="mt-5 pb-5">
+      <b-col
+        md="6"
+        lg="4"
+        class="mt-3"
+        v-for="product in products"
+        :key="product.id"
+      >
         <div class="product">
           <img
-            :key="product.id"
             :src="
               product.selectedImage
                 ? product.selectedImage.url
@@ -14,12 +19,20 @@
             alt="product.name"
           />
           <b-row class="product-images text-left ml-0">
-            <img
-              v-for="image in product.images"
-              :key="image.id"
-              :src="image.formats.thumbnail.url"
-              @click="selectImage(product.id, image)"
-            />
+            <div class="image-wrapper">
+              <img
+                :class="{
+                  'selected-product-image':
+                    (product.selectedImage &&
+                      product.selectedImage.id == image.id) ||
+                    (!product.selectedImage && index == 0),
+                }"
+                v-for="(image, index) in product.images"
+                :key="image.id"
+                :src="image.formats.thumbnail.url"
+                @click="selectImage(product.id, image)"
+              />
+            </div>
           </b-row>
           <div class="product-description mt-3">
             <h5 class="mb-0">
@@ -28,7 +41,7 @@
           </div>
           <h5 class="mt-0">{{ product.price }},-</h5>
           <button class="purchase-button" @click="addToCart(product)">
-            Legg i handlekurv
+            Legg i handlevogn
           </button>
         </div>
       </b-col>
@@ -89,17 +102,27 @@
 <style scoped>
   .product {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
     border-radius: 5px;
     padding: 20px;
   }
   .product img {
+    height: 250px;
     width: 100%;
-    height: 300px;
+    object-fit: fill;
   }
   .product-images img {
     height: 50px;
-    width: auto;
+    width: 50px;
+    object-fit: cover;
+    background-position: center center;
     cursor: pointer;
+  }
+  .image-wrapper {
+    background-color: #282c34;
+  }
+  .selected-product-image {
+    opacity: 0.8;
   }
   .product-description {
     text-align: left;

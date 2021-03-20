@@ -8,7 +8,7 @@
       🛒 {{ cartItems.length }}
     </button>
     <b-sidebar v-model="localShowCart" title="Handlevogn" right shadow backdrop>
-      <h4 v-if="!cartItems.length">Din handlevogn er tom</h4>
+      <h4 class="mt-5" v-if="!cartItems.length">Din handlevogn er tom 🛒</h4>
       <b-col class="px-3 py-2" v-for="item in cartItems" :key="item.id">
         <ul class="list-unstyled text-left">
           <li class="mt-4">
@@ -31,7 +31,7 @@
           </button>
         </b-col>
       </b-col>
-      <b-col>
+      <b-col v-if="cartItems.length">
         <h5 class="text-right mr-3 mt-4">Totalt {{ totalSum }},-</h5>
       </b-col>
       <b-col class="mt-5" v-if="cartItems.length">
