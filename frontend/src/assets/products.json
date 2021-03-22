@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1",
+    "product_id": "scoot_n_ride",
+    "name": " Rosa sparke- og sittesykkel - Scoot & Ride",
+    "price": 1299,
+    "images": [
+      {
+        "id": "2",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_rosa-highwaykick-1-sparke-og-sittesykkel.jpeg",
+            "hash": "thumbnail_rosa_highwaykick_1_sparke_og_sittesykkel_f49d0bacf6",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 3.07,
+            "path": null,
+            "url": "/img/products/thumbnail_rosa_highwaykick_1_sparke_og_sittesykkel_f49d0bacf6.jpeg"
+          }
+        },
+        "url": "/img/products/rosa_highwaykick_1_sparke_og_sittesykkel_f49d0bacf6.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "1",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_rosa-highwaykick-1-sparke-og-sittesykkel-1.jpeg",
+            "hash": "thumbnail_rosa_highwaykick_1_sparke_og_sittesykkel_1_d6db1f9dea",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 3.92,
+            "path": null,
+            "url": "/img/products/thumbnail_rosa_highwaykick_1_sparke_og_sittesykkel_1_d6db1f9dea.jpeg"
+          }
+        },
+        "url": "/img/products/rosa_highwaykick_1_sparke_og_sittesykkel_1_d6db1f9dea.jpeg",
+        "__typename": "UploadFile"
+      }
+    ],
+    "__typename": "Product"
+  },
+  {
+    "id": "2",
+    "product_id": "pink_helmet",
+    "name": "Rosa sykkelhjelm, briller (48-53 cm) - Kiddimoto",
+    "price": 599,
+    "images": [
+      {
+        "id": "4",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Sykkelhjelm_rosa_kjørebrillemotiv_48_-_53_cm.jpeg",
+            "hash": "thumbnail_Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_35ed946c2f",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 3.32,
+            "path": null,
+            "url": "/img/products/thumbnail_Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_35ed946c2f.jpeg"
+          }
+        },
+        "url": "/img/products/Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_35ed946c2f.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "3",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_Sykkelhjelm_rosa_kjørebrillemotiv_48_-_53_cm-1.jpeg",
+            "hash": "thumbnail_Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_1_a02b360861",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 4.82,
+            "path": null,
+            "url": "/img/products/thumbnail_Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_1_a02b360861.jpeg"
+          }
+        },
+        "url": "/img/products/Sykkelhjelm_rosa_kjorebrillemotiv_48_53_cm_1_a02b360861.jpeg",
+        "__typename": "UploadFile"
+      }
+    ],
+    "__typename": "Product"
+  },
+  {
+    "id": "3",
+    "product_id": "send",
+    "name": "Sebraseng",
+    "price": 8995,
+    "images": [
+      {
+        "id": "5",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_morkgra-sebraseng-sprinkelseng-juniorseng-1.jpeg",
+            "hash": "thumbnail_morkgra_sebraseng_sprinkelseng_juniorseng_1_5565ce6707",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 5.19,
+            "path": null,
+            "url": "/img/products/thumbnail_morkgra_sebraseng_sprinkelseng_juniorseng_1_5565ce6707.jpeg"
+          }
+        },
+        "url": "/img/products/morkgra_sebraseng_sprinkelseng_juniorseng_1_5565ce6707.jpeg",
+        "__typename": "UploadFile"
+      }
+    ],
+    "__typename": "Product"
+  },
+  {
+    "id": "4",
+    "product_id": "gyngedinosaur",
+    "name": "Gyngedinosaur",
+    "price": 1499,
+    "images": [
+      {
+        "id": "10",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gyngedinosaur-i-tre-kids-concept.jpeg",
+            "hash": "thumbnail_gyngedinosaur_i_tre_kids_concept_9a8e449426",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 4.7,
+            "path": null,
+            "url": "/img/products/thumbnail_gyngedinosaur_i_tre_kids_concept_9a8e449426.jpeg"
+          }
+        },
+        "url": "/img/products/gyngedinosaur_i_tre_kids_concept_9a8e449426.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "8",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gyngedinosaur-i-tre-kids-concept-2.jpeg",
+            "hash": "thumbnail_gyngedinosaur_i_tre_kids_concept_2_46b13df278",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 4.65,
+            "path": null,
+            "url": "/img/products/thumbnail_gyngedinosaur_i_tre_kids_concept_2_46b13df278.jpeg"
+          }
+        },
+        "url": "/img/products/gyngedinosaur_i_tre_kids_concept_2_46b13df278.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "9",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gyngedinosaur-i-tre-kids-concept-1.jpeg",
+            "hash": "thumbnail_gyngedinosaur_i_tre_kids_concept_1_5200a4c3c8",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 180,
+            "height": 156,
+            "size": 2.91,
+            "path": null,
+            "url": "/img/products/thumbnail_gyngedinosaur_i_tre_kids_concept_1_5200a4c3c8.jpeg"
+          }
+        },
+        "url": "/img/products/gyngedinosaur_i_tre_kids_concept_1_5200a4c3c8.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "7",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gyngedinosaur-i-tre-kids-concept-3.jpeg",
+            "hash": "thumbnail_gyngedinosaur_i_tre_kids_concept_3_628fa51fa7",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 188,
+            "height": 156,
+            "size": 3.88,
+            "path": null,
+            "url": "/img/products/thumbnail_gyngedinosaur_i_tre_kids_concept_3_628fa51fa7.jpeg"
+          }
+        },
+        "url": "/img/products/gyngedinosaur_i_tre_kids_concept_3_628fa51fa7.jpeg",
+        "__typename": "UploadFile"
+      },
+      {
+        "id": "6",
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_gyngedinosaur-i-tre-kids-concept-4.jpeg",
+            "hash": "thumbnail_gyngedinosaur_i_tre_kids_concept_4_d1ac238ebc",
+            "ext": ".jpeg",
+            "mime": "image/jpeg",
+            "width": 188,
+            "height": 156,
+            "size": 4.63,
+            "path": null,
+            "url": "/img/products/thumbnail_gyngedinosaur_i_tre_kids_concept_4_d1ac238ebc.jpeg"
+          }
+        },
+        "url": "/img/products/gyngedinosaur_i_tre_kids_concept_4_d1ac238ebc.jpeg",
+        "__typename": "UploadFile"
+      }
+    ],
+    "__typename": "Product"
+  }
+]

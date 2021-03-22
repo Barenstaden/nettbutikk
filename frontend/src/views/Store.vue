@@ -1,6 +1,6 @@
 <template>
-  <b-container v-if="products">
-    <h1 class="pt-5">Butikken med {{ products.length }} varer</h1>
+  <b-container v-if="remoteOrLocalProducts">
+    <h1 class="pt-5">Butikken med {{ remoteOrLocalProducts.length }} varer</h1>
 
     <!-- Produkter -->
     <b-row class="mt-5 pb-5">
@@ -8,7 +8,7 @@
         md="6"
         lg="4"
         class="mt-3"
-        v-for="product in products"
+        v-for="product in remoteOrLocalProducts"
         :key="product.id"
       >
         <!-- Produkt -->
@@ -59,8 +59,16 @@
 
 <script>
   import gql from 'graphql-tag';
+  import localProducts from '@/assets/products.json';
   import { mapGetters } from 'vuex';
   export default {
+    data() {
+      return {
+        localProducts,
+        // Endre til hva som helst for å hente fra Strapi
+        fetchProductsFrom: 'local',
+      };
+    },
     apollo: {
       products: {
         query: gql`
@@ -100,7 +108,12 @@
     },
     computed: {
       // Fra store
-      ...mapGetters(['cartItems'])
+      ...mapGetters(['cartItems']),
+      remoteOrLocalProducts() {
+        return this.fetchProductsFrom == 'local'
+          ? this.localProducts
+          : this.products;
+      },
     },
   };
 </script>
