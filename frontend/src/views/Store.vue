@@ -91,7 +91,7 @@
     methods: {
       // Endre hovedbilde fra thumbnails
       selectImage(productId, image) {
-        this.products = this.products.map((product) => {
+        this.products = this.remoteOrLocalProducts.map((product) => {
           if (product.id == productId) {
             product.selectedImage = image;
           }

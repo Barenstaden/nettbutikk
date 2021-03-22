@@ -4,6 +4,7 @@
     "product_id": "scoot_n_ride",
     "name": " Rosa sparke- og sittesykkel - Scoot & Ride",
     "price": 1299,
+    "selectedImage": null,
     "images": [
       {
         "id": "2",
@@ -49,6 +50,7 @@
     "product_id": "pink_helmet",
     "name": "Rosa sykkelhjelm, briller (48-53 cm) - Kiddimoto",
     "price": 599,
+    "selectedImage": null,
     "images": [
       {
         "id": "4",
@@ -94,6 +96,7 @@
     "product_id": "send",
     "name": "Sebraseng",
     "price": 8995,
+    "selectedImage": null,
     "images": [
       {
         "id": "5",
@@ -121,6 +124,7 @@
     "product_id": "gyngedinosaur",
     "name": "Gyngedinosaur",
     "price": 1499,
+    "selectedImage": null,
     "images": [
       {
         "id": "10",
